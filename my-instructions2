@@ -1,0 +1,25 @@
+  354  echo ignore_me.txt > .gitignore
+  355  git status
+  356* ls
+  357* cd Documents
+  358* ls
+  359* cd workspace
+  360* ls -a
+  361* sudo rm -r .git
+  362* cd git-and-github-basics-assessment
+  363* ls -a
+  364  git add .gitignore
+  365  git commit -m "single .gitignore commit"
+  366  git add readme.md, ignore_me.txt
+  367  git add readme.md
+  368  ls
+  369  git add readme.md
+  370  git add .readme.md
+  371  git add -A
+  372  git status
+  373  git commit -m "committing ignore_me.txt and readme.md"
+  374  atom .gitignore
+  375  git remote add origin https://github.com/joha0033/basic-assessment.git
+  376  git remote -v
+  377  git push -u origin master
+  378  ..
